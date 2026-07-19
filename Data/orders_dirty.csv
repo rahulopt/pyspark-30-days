@@ -1,0 +1,16 @@
+order_id,customer_id,product_id,order_date,quantity,unit_price,discount_pct,status,payment_method,region
+O0001,C001,P001,2023-01-05,2,1299.99,10,Delivered,Credit Card,East
+O0002,C002,P005,2023-01-07,1,449.99,0,Delivered,PayPal,West
+O0003,C003,P003,2023-01-10,4,349.99,15,Delivered,Credit Card,Midwest
+O0004,C004,MISSING_COLUMNS_ROW
+O0005,C005,P002,2023-01-15,3,29.99,0,Delivered,Credit Card,West
+O0006,C006,P008,2023-01-18,1,199.99,10,Delivered,Credit Card,East
+O0007,C007,TOO,MANY,EXTRA,COLUMNS,IN,THIS,ROW,HERE,EXTRA1,EXTRA2
+O0008,C008,P014,2023-01-22,1,59.99,0,Delivered,Credit Card,West
+O0009,C009,P001,2023-01-25,1,1299.99,20,Delivered,Credit Card,South
+O0010,C010,P007,2023-01-28,2,79.99,0,Delivered,Debit Card,West
+O0011,C011,P013,2023-02-02,3,39.99,0,Delivered,Credit Card,South
+O0012,ONLY,THREE
+O0013,C013,P009,2023-02-08,4,49.99,0,Delivered,PayPal,West
+O0014,C014,P006,2023-02-10,1,89.99,5,Delivered,Credit Card,Midwest
+O0015,C015,P020,2023-02-14,1,699.99,15,Delivered,Credit Card,East
