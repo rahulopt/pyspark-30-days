@@ -41,7 +41,7 @@ pyspark-30-days/
 │   ├── products.csv
 │   └── source_files/
 │
-├── Scripts/                    # Daily modular implementation scripts
+├── Notebooks/                    # Daily modular implementation scripts
 │   ├── Day_01/
 │   ├── Day_02/
 │   ├── Day_03/
