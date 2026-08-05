@@ -1,0 +1,92 @@
+[
+  {
+    "order_id": "ORD001",
+    "order_date": "2026-08-01",
+    "customer": {
+      "customer_id": "C001",
+      "name": "Rahul Singh",
+      "email": "rahul@example.com"
+    },
+    "shipping_address": {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    },
+    "items": [
+      {
+        "product_id": "P101",
+        "product_name": "Laptop",
+        "quantity": 1,
+        "unit_price": 65000
+      },
+      {
+        "product_id": "P102",
+        "product_name": "Wireless Mouse",
+        "quantity": 2,
+        "unit_price": 1200
+      }
+    ],
+    "payment": {
+      "method": "Credit Card",
+      "status": "Success"
+    }
+  },
+  {
+    "order_id": "ORD002",
+    "order_date": "2026-08-02",
+    "customer": {
+      "customer_id": "C002",
+      "name": "Priya Sharma",
+      "email": "priya@example.com"
+    },
+    "shipping_address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    "items": [
+      {
+        "product_id": "P103",
+        "product_name": "Keyboard",
+        "quantity": 1,
+        "unit_price": 2500
+      }
+    ],
+    "payment": {
+      "method": "UPI",
+      "status": "Success"
+    }
+  },
+  {
+    "order_id": "ORD003",
+    "order_date": "2026-08-03",
+    "customer": {
+      "customer_id": "C003",
+      "name": "Amit Kumar",
+      "email": "amit@example.com"
+    },
+    "shipping_address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    },
+    "items": [
+      {
+        "product_id": "P104",
+        "product_name": "Monitor",
+        "quantity": 2,
+        "unit_price": 15000
+      },
+      {
+        "product_id": "P105",
+        "product_name": "HDMI Cable",
+        "quantity": 2,
+        "unit_price": 800
+      }
+    ],
+    "payment": {
+      "method": "Cash on Delivery",
+      "status": "Pending"
+    }
+  }
+]
